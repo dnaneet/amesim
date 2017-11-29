@@ -1,0 +1,13 @@
+File Name,Joint Type,Joint name,Joint identifier,body 1,body 2,point,Direction
+BridgeCraneBodies_R02.mdl,*TransJoint(,j_0,,"crane_trans",,b_0,,B_Ground,,p_0,,V_Global_X
+cart_w_wheels_v01_07312017a_avec_compound-spring.mdl,*TransJoint(,*TransJoint(,*TransJoint(,*TransJoint(,*TransJoint(,*TransJoint(,*TransJoint(,*TransJoint(,*TransJoint(,j_4,,j_5,,j_6,,j_7,,j_9,,j_10,,j_11,,j_12,,j_13,,"tranBL",,"tranBR",,"tranTL",,"tranTR",,"push_translational",,"bushing_BL",,"bushing_BR",,"bushing_TL",,"bushing_TR",,b_5,,b_0,,b_7,,b_8,,b_9,,b_10,,b_11,,b_12,,b_13,,B_Ground,,B_Ground,,B_Ground,,B_Ground,,B_Ground,,B_Ground,,B_Ground,,B_Ground,,B_Ground,,p_5,,p_6,,p_7,,p_8,,p_17,,p_18,,p_19,,p_20,,p_21,,V_Global_X,V_Global_X,V_Global_X,V_Global_X,V_Global_Z,V_Global_Z,V_Global_Z,V_Global_Z,V_Global_Z
+cart_w_wheels_v01_07312017a.mdl,*TransJoint(,*TransJoint(,*TransJoint(,*TransJoint(,*TransJoint(,j_4,,j_5,,j_6,,j_7,,j_9,,"tranBL",,"tranBR",,"tranTL",,"tranTR",,"push_translational",,b_5,,b_0,,b_7,,b_8,,b_9,,B_Ground,,B_Ground,,B_Ground,,B_Ground,,B_Ground,,p_5,,p_6,,p_7,,p_8,,p_17,,V_Global_X,V_Global_X,V_Global_X,V_Global_X,V_Global_Z
+cart_w_wheels_v01_07312017b_avec_bushings.mdl,*TransJoint(,*TransJoint(,*TransJoint(,*TransJoint(,*TransJoint(,*TransJoint(,j_4,,j_5,,j_6,,j_7,,j_9,,j_10,,"tranBL",,"tranBR",,"tranTL",,"tranTR",,"push_translational",,"tranCart",,b_5,,b_6,,b_7,,b_8,,b_9,,b_0,,B_Ground,,B_Ground,,B_Ground,,B_Ground,,B_Ground,,B_Ground,,p_5,,p_6,,p_7,,p_8,,p_17,,p_0,,V_Global_X,V_Global_X,V_Global_X,V_Global_X,V_Global_Z,V_Global_Z
+ch2_free_body_completed.mdl
+ch2_free_body.mdl
+ch3_cylinder_for_pendulum_completed.mdl
+chX_cylinder_as_pendulum_bob_completed.mdl
+chX_cylinder_as_pendulum_bob.mdl
+chX_rolling_bar.mdl,*TransJoint(,j_1,,"Joint,1",,b_0,,B_Ground,,VECTOR,
+chX_rolling_bar_trnaslation_along_x_achieved_completed.mdl,*TransJoint(,j_0,,"Joint,0",,b_0,,B_Ground,,POINT,
+slider.mdl,*TransJoint(,j_4,,"Joint,4",,b_3,,B_Ground,,VECTOR,
