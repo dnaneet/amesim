@@ -1,0 +1,778 @@
+------------------------------------
+ BridgeCraneBodies_R021.mdl
+ --------------------------------
+ Number of Translational Joints: 1 , Number of Revolute Joints:  1 , Number of Fixed Joints:  2 , Number of Ball Joints: 2 , Number of Motions: 1 , Motion applied to: DISP, , Expression:`10000*(1-cos(.05*2*pi*TIME))` 
+
+Translational Joint
+*TransJoint(
+j_0,
+"crane_trans",
+b_0,
+B_Ground,
+p_0,
+VECTOR,
+V_Global_X
+)
+ 
+ 
+Revolute Joint
+*RevJoint(
+j_1,
+"SwingArm2Crane",
+b_0,
+b_1,
+p_4,
+VECTOR,
+V_Global_Y
+)
+ 
+ 
+Fixed Joint
+*FixedJoint(
+j_4,
+"Rail2Ground",
+b_4,
+B_Ground,
+p_10
+)
+*FixedJoint(
+j_5,
+"Floor2Ground",
+b_5,
+B_Ground,
+p_12
+)
+ 
+ 
+Ball Joint
+*BallJoint(
+j_2,
+"Cable2SwingArm",
+b_1,
+b_2,
+p_2
+)
+*BallJoint(
+j_3,
+"Cable2Ball",
+b_2,
+b_3,
+p_8
+)
+ 
+ 
+**********************************************************************
+
+
+------------------------------------
+ BridgeCraneBodies_R02.mdl
+ --------------------------------
+ Number of Translational Joints: 1 , Number of Revolute Joints:  1 , Number of Fixed Joints:  2 , Number of Ball Joints: 2 , Number of Motions: 1 , Motion applied to: DISP, , Expression:`10000*(1-cos(.05*2*pi*TIME))` 
+
+Translational Joint
+*TransJoint(
+j_0,
+"crane_trans",
+b_0,
+B_Ground,
+p_0,
+VECTOR,
+V_Global_X
+)
+ 
+ 
+Revolute Joint
+*RevJoint(
+j_1,
+"SwingArm2Crane",
+b_0,
+b_1,
+p_4,
+VECTOR,
+V_Global_Y
+)
+ 
+ 
+Fixed Joint
+*FixedJoint(
+j_4,
+"Rail2Ground",
+b_4,
+B_Ground,
+p_10
+)
+*FixedJoint(
+j_5,
+"Floor2Ground",
+b_5,
+B_Ground,
+p_12
+)
+ 
+ 
+Ball Joint
+*BallJoint(
+j_2,
+"Cable2SwingArm",
+b_1,
+b_2,
+p_2
+)
+*BallJoint(
+j_3,
+"Cable2Ball",
+b_2,
+b_3,
+p_8
+)
+ 
+ 
+**********************************************************************
+
+
+------------------------------------
+ BridgeCraneBodies_R02_v2.mdl
+ --------------------------------
+ Number of Translational Joints: 0 , Number of Revolute Joints:  0 , Number of Fixed Joints:  0 , Number of Ball Joints: 0 , Number of Motions: 0 , Motion applied to: , Expression: 
+
+Translational Joint
+ 
+ 
+Revolute Joint
+ 
+ 
+Fixed Joint
+ 
+ 
+Ball Joint
+ 
+ 
+**********************************************************************
+
+
+------------------------------------
+ cart_w_wheels_v01_07312017a_avec_compound-spring.mdl
+ --------------------------------
+ Number of Translational Joints: 9 , Number of Revolute Joints:  4 , Number of Fixed Joints:  0 , Number of Ball Joints: 1 , Number of Motions: 0 , Motion applied to: , Expression: 
+
+Translational Joint
+*TransJoint(
+j_4,
+"tranBL",
+b_5,
+B_Ground,
+p_5,
+VECTOR,
+V_Global_X
+)
+*TransJoint(
+j_5,
+"tranBR",
+b_0,
+B_Ground,
+p_6,
+VECTOR,
+V_Global_X
+)
+*TransJoint(
+j_6,
+"tranTL",
+b_7,
+B_Ground,
+p_7,
+VECTOR,
+V_Global_X
+)
+*TransJoint(
+j_7,
+"tranTR",
+b_8,
+B_Ground,
+p_8,
+VECTOR,
+V_Global_X
+)
+*TransJoint(
+j_9,
+"push_translational",
+b_9,
+B_Ground,
+p_17,
+VECTOR,
+V_Global_Z
+)
+*TransJoint(
+j_10,
+"bushing_BL",
+b_10,
+B_Ground,
+p_18,
+VECTOR,
+V_Global_Z
+)
+*TransJoint(
+j_11,
+"bushing_BR",
+b_11,
+B_Ground,
+p_19,
+VECTOR,
+V_Global_Z
+)
+*TransJoint(
+j_12,
+"bushing_TL",
+b_12,
+B_Ground,
+p_20,
+VECTOR,
+V_Global_Z
+)
+*TransJoint(
+j_13,
+"bushing_TR",
+b_13,
+B_Ground,
+p_21,
+VECTOR,
+V_Global_Z
+)
+ 
+ 
+Revolute Joint
+*RevJoint(
+j_0,
+"revBL",
+b_1,
+b_5,
+p_2,
+VECTOR,
+V_Global_Y
+)
+*RevJoint(
+j_1,
+"revBR",
+b_2,
+b_6,
+p_1,
+VECTOR,
+V_Global_Y
+)
+*RevJoint(
+j_2,
+"revTL",
+b_3,
+b_7,
+p_4,
+VECTOR,
+V_Global_Y
+)
+*RevJoint(
+j_3,
+"revTR",
+b_4,
+b_8,
+p_3,
+VECTOR,
+V_Global_Y
+)
+ 
+ 
+Fixed Joint
+ 
+ 
+Ball Joint
+*BallJoint(
+j_8,
+"ball",
+b_9,
+b_0,
+p_17
+)
+ 
+ 
+**********************************************************************
+
+
+------------------------------------
+ cart_w_wheels_v01_07312017a.mdl
+ --------------------------------
+ Number of Translational Joints: 5 , Number of Revolute Joints:  4 , Number of Fixed Joints:  0 , Number of Ball Joints: 1 , Number of Motions: 0 , Motion applied to: , Expression: 
+
+Translational Joint
+*TransJoint(
+j_4,
+"tranBL",
+b_5,
+B_Ground,
+p_5,
+VECTOR,
+V_Global_X
+)
+*TransJoint(
+j_5,
+"tranBR",
+b_0,
+B_Ground,
+p_6,
+VECTOR,
+V_Global_X
+)
+*TransJoint(
+j_6,
+"tranTL",
+b_7,
+B_Ground,
+p_7,
+VECTOR,
+V_Global_X
+)
+*TransJoint(
+j_7,
+"tranTR",
+b_8,
+B_Ground,
+p_8,
+VECTOR,
+V_Global_X
+)
+*TransJoint(
+j_9,
+"push_translational",
+b_9,
+B_Ground,
+p_17,
+VECTOR,
+V_Global_Z
+)
+ 
+ 
+Revolute Joint
+*RevJoint(
+j_0,
+"revBL",
+b_6,
+b_5,
+p_2,
+VECTOR,
+V_Global_Y
+)
+*RevJoint(
+j_1,
+"revBR",
+b_2,
+b_6,
+p_1,
+VECTOR,
+V_Global_Y
+)
+*RevJoint(
+j_2,
+"revTL",
+b_3,
+b_7,
+p_4,
+VECTOR,
+V_Global_Y
+)
+*RevJoint(
+j_3,
+"revTR",
+b_4,
+b_8,
+p_3,
+VECTOR,
+V_Global_Y
+)
+ 
+ 
+Fixed Joint
+ 
+ 
+Ball Joint
+*BallJoint(
+j_8,
+"ball",
+b_9,
+b_0,
+p_17
+)
+ 
+ 
+**********************************************************************
+
+
+------------------------------------
+ cart_w_wheels_v01_07312017b_avec_bushings.mdl
+ --------------------------------
+ Number of Translational Joints: 6 , Number of Revolute Joints:  4 , Number of Fixed Joints:  0 , Number of Ball Joints: 1 , Number of Motions: 0 , Motion applied to: , Expression: 
+
+Translational Joint
+*TransJoint(
+j_4,
+"tranBL",
+b_5,
+B_Ground,
+p_5,
+VECTOR,
+V_Global_X
+)
+*TransJoint(
+j_5,
+"tranBR",
+b_6,
+B_Ground,
+p_6,
+VECTOR,
+V_Global_X
+)
+*TransJoint(
+j_6,
+"tranTL",
+b_7,
+B_Ground,
+p_7,
+VECTOR,
+V_Global_X
+)
+*TransJoint(
+j_7,
+"tranTR",
+b_8,
+B_Ground,
+p_8,
+VECTOR,
+V_Global_X
+)
+*TransJoint(
+j_9,
+"push_translational",
+b_9,
+B_Ground,
+p_17,
+VECTOR,
+V_Global_Z
+)
+*TransJoint(
+j_10,
+"tranCart",
+b_0,
+B_Ground,
+p_0,
+VECTOR,
+V_Global_Z
+)
+ 
+ 
+Revolute Joint
+*RevJoint(
+j_0,
+"revBL",
+b_1,
+b_5,
+p_2,
+VECTOR,
+V_Global_Y
+)
+*RevJoint(
+j_1,
+"revBR",
+b_2,
+b_6,
+p_1,
+VECTOR,
+V_Global_Y
+)
+*RevJoint(
+j_2,
+"revTL",
+b_3,
+b_7,
+p_4,
+VECTOR,
+V_Global_Y
+)
+*RevJoint(
+j_3,
+"revTR",
+b_4,
+b_8,
+p_3,
+VECTOR,
+V_Global_Y
+)
+ 
+ 
+Fixed Joint
+ 
+ 
+Ball Joint
+*BallJoint(
+j_8,
+"ball",
+b_9,
+b_0,
+p_17
+)
+ 
+ 
+**********************************************************************
+
+
+------------------------------------
+ ch2_free_body_completed.mdl
+ --------------------------------
+ Number of Translational Joints: 0 , Number of Revolute Joints:  0 , Number of Fixed Joints:  0 , Number of Ball Joints: 0 , Number of Motions: 0 , Motion applied to: , Expression: 
+
+Translational Joint
+ 
+ 
+Revolute Joint
+ 
+ 
+Fixed Joint
+ 
+ 
+Ball Joint
+ 
+ 
+**********************************************************************
+
+
+------------------------------------
+ ch2_free_body.mdl
+ --------------------------------
+ Number of Translational Joints: 0 , Number of Revolute Joints:  0 , Number of Fixed Joints:  0 , Number of Ball Joints: 0 , Number of Motions: 0 , Motion applied to: , Expression: 
+
+Translational Joint
+ 
+ 
+Revolute Joint
+ 
+ 
+Fixed Joint
+ 
+ 
+Ball Joint
+ 
+ 
+**********************************************************************
+
+
+------------------------------------
+ ch3_cylinder_for_pendulum_completed.mdl
+ --------------------------------
+ Number of Translational Joints: 0 , Number of Revolute Joints:  1 , Number of Fixed Joints:  0 , Number of Ball Joints: 0 , Number of Motions: 0 , Motion applied to: , Expression: 
+
+Translational Joint
+ 
+ 
+Revolute Joint
+*RevJoint(
+j_0,
+"Joint
+0",
+b_0,
+B_Ground,
+p_0,
+VECTOR,
+V_Global_Y
+)
+ 
+ 
+Fixed Joint
+ 
+ 
+Ball Joint
+ 
+ 
+**********************************************************************
+
+
+------------------------------------
+ chX_cylinder_as_pendulum_bob_completed.mdl
+ --------------------------------
+ Number of Translational Joints: 0 , Number of Revolute Joints:  0 , Number of Fixed Joints:  0 , Number of Ball Joints: 2 , Number of Motions: 0 , Motion applied to: , Expression: 
+
+Translational Joint
+ 
+ 
+Revolute Joint
+ 
+ 
+Fixed Joint
+ 
+ 
+Ball Joint
+*BallJoint(
+j_0,
+"Joint
+0",
+B_Ground,
+b_cyl,
+p_0
+)
+*BallJoint(
+j_1,
+"Joint
+1",
+b_bob,
+b_cyl,
+p_2
+)
+ 
+ 
+**********************************************************************
+
+
+------------------------------------
+ chX_cylinder_as_pendulum_bob.mdl
+ --------------------------------
+ Number of Translational Joints: 0 , Number of Revolute Joints:  0 , Number of Fixed Joints:  0 , Number of Ball Joints: 2 , Number of Motions: 0 , Motion applied to: , Expression: 
+
+Translational Joint
+ 
+ 
+Revolute Joint
+ 
+ 
+Fixed Joint
+ 
+ 
+Ball Joint
+*BallJoint(
+j_0,
+"Joint
+0",
+B_Ground,
+b_cyl,
+p_0
+)
+*BallJoint(
+j_1,
+"Joint
+1",
+b_bob,
+b_cyl,
+p_2
+)
+ 
+ 
+**********************************************************************
+
+
+------------------------------------
+ chX_rolling_bar.mdl
+ --------------------------------
+ Number of Translational Joints: 1 , Number of Revolute Joints:  1 , Number of Fixed Joints:  0 , Number of Ball Joints: 0 , Number of Motions: 0 , Motion applied to: , Expression: 
+
+Translational Joint
+*TransJoint(
+j_1,
+"Joint
+1",
+b_0,
+B_Ground,
+p_1,
+VECTOR,
+V_Global_Y
+)
+ 
+ 
+Revolute Joint
+*RevJoint(
+j_0,
+"Joint
+0",
+b_0,
+B_Ground,
+p_0,
+VECTOR,
+V_Global_Y
+)
+ 
+ 
+Fixed Joint
+ 
+ 
+Ball Joint
+ 
+ 
+**********************************************************************
+
+
+------------------------------------
+ chX_rolling_bar_trnaslation_along_x_achieved_completed.mdl
+ --------------------------------
+ Number of Translational Joints: 1 , Number of Revolute Joints:  0 , Number of Fixed Joints:  0 , Number of Ball Joints: 0 , Number of Motions: 0 , Motion applied to: , Expression: 
+
+Translational Joint
+*TransJoint(
+j_0,
+"Joint
+0",
+b_0,
+B_Ground,
+p_0,
+POINT,
+)
+ 
+ 
+Revolute Joint
+ 
+ 
+Fixed Joint
+ 
+ 
+Ball Joint
+ 
+ 
+**********************************************************************
+
+
+------------------------------------
+ slider.mdl
+ --------------------------------
+ Number of Translational Joints: 1 , Number of Revolute Joints:  1 , Number of Fixed Joints:  0 , Number of Ball Joints: 1 , Number of Motions: 0 , Motion applied to: , Expression: 
+
+Translational Joint
+*TransJoint(
+j_4,
+"Joint
+4",
+b_3,
+B_Ground,
+p_7,
+VECTOR,
+V_Global_Z
+)
+ 
+ 
+Revolute Joint
+*RevJoint(
+j_0,
+"j_revolute_ground_b1",
+b_0,
+B_Ground,
+p_0,
+VECTOR,
+V_Global_Z
+)
+ 
+ 
+Fixed Joint
+ 
+ 
+Ball Joint
+*BallJoint(
+j_3,
+"j_ball_b3_blk",
+b_2,
+b_3,
+p_3
+)
+ 
+ 
+**********************************************************************
+
+
