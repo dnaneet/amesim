@@ -41,9 +41,13 @@ for FILENAME in *.mdl
     printf '%s ' "Number of Translational Joints:" $nTrans "," "Number of Revolute Joints: " $nRev "," "Number of Fixed Joints: " $nFixed "," "Number of Ball Joints:" $nBall "," "Number of Motions:" $nMotion "," "Motion applied to:" $motionType "," "Expression:"$motionExp >> mdl_file_summary.txt   
     echo $'\n' >> mdl_file_summary.txt
     printf '%s\n' "Translational Joint" ${connTrans[@]} " " " " >> mdl_file_summary.txt
+    echo $'\n' >> mdl_file_summary.txt
     printf '%s\n'  "Revolute Joint" ${connRev[@]}  " " " " >> mdl_file_summary.txt
-    printf '%s\n' "Fixed Joint" ${connFixed[@]} " " " " >> mdl_file_summary.txt     
+    echo $'\n' >> mdl_file_summary.txt
+    printf '%s\n' "Fixed Joint" ${connFixed[@]} " " " " >> mdl_file_summary.txt
+    echo $'\n' >> mdl_file_summary.txt     
     printf '%s\n' "Ball Joint" ${connBall[@]} " " " " >> mdl_file_summary.txt
+    echo $'\n' >> mdl_file_summary.txt
     echo $'**********************************************************************\n\n' >> mdl_file_summary.txt         
   done
   
