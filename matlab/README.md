@@ -1,0 +1,1 @@
+Script that runs MATLAB scripts, saves outputs with same name as original script.  This script may be used to run dozens (or hundreds) of student submitted MATLAB scripts and tabulate outputs/results.  Further modifications could include application of student work assessment techniqe in script.
