@@ -16,7 +16,7 @@ fem_release_01.sh,0,0,0,0,no
 fem_release_02_p.sh,0,0,0,0,no
 fem_release_02.sh,0,0,0,0,no
 Garrett_Smith_3901_e02_R01.fem,7802,PSOLID,210000.,123456,0,0,0.05,yes
-Griffin_Carpenter_3901_e02_R03_FEM.fem,5427,PSOLID,2.1+,123456,0,50,0,no
+Griffin_Carpenter_3901_e02_R03_FEM.fem,5427,PSOLID,2.1,123456,0,50,0,no
 input_file_summary.txt,0,no
 Jacob_Lange_3901_e02.fem,10616,PSOLID,210.,123456,0,0,0.05,yes
 Jared_Schreier_3901_e02_R03_FEM.fem,4927,PSOLID,210.,123456,0,0,0.5,yes
